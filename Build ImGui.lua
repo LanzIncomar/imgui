@@ -26,8 +26,8 @@ project "ImGui"
     }
     -- Add the include directories
    includedirs {
-      "",
-      "../glfw/include/"
+    "extern/glfw/include",
+    "", --for the root folder
    }
 
     -- Add the library directories
