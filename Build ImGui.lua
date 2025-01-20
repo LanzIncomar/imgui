@@ -34,7 +34,7 @@ project "ImGui"
    libdirs {}
     
     -- Add the dependant project
-   links {}
+   links {"GLFW"}
 
    targetdir ("bin/" .. OutputDir .. "/%{prj.name}")
    objdir ("bin/Intermediates/" .. OutputDir .. "/%{prj.name}")
