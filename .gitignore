@@ -2,7 +2,7 @@
 .DS_Store
 
 # Directories
-bin/
+Binaries/
 
 ## Dear ImGui artifacts
 imgui.ini
