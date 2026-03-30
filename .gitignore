@@ -3,6 +3,7 @@
 
 # Directories
 Binaries/
+lib/
 
 ## Dear ImGui artifacts
 imgui.ini
